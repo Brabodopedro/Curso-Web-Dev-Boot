@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif;
+  color: #002244;
+}
+
+main {
+  max-width: 42rem;
+  margin: 3rem auto 0 auto;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+}
+
+p {
+  line-height: 170%;
+}
+
+img {
+  max-width: 120%;
+}
+
+
+/* Descendentes : 
+  <ul>
+    <li>gjaihg</li>
+    <li>gjaihg</li>
+    <li>gjaihg <a></a></li>
+  </ul>
+
+  para mexer no li temos q usar: (dentro do CSS)
+  ul li {
+
+  }
+  e para mexer no a temos q usar isso : 
+  ul li a {
+
+  } */
+  
